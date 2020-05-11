@@ -1,6 +1,6 @@
 """
 CTEC 121
-<your name>
+Ilya Panasevich
 <assignment/lab name>
 <assignment/lab description
 """
@@ -11,7 +11,17 @@ Process: description of what function does
 Output: return value and description
 """
 
-def main():
-    # code here
+from graphics import *
 
+def main():
+    '''
+    win = GraphWin("Title", 600, 300)
+
+    p = Point(100, 200)
+    x = p.getX()
+    y = p.getY()
+    print("x and y:", x, y)
+
+    input()
+    '''
 main()    
